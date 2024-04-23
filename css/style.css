@@ -44,9 +44,9 @@ body{
  }
  #Computação2{background-color: aqua;
  }
- .divpart01{background-color: aqua;
+ .divpart01{background-color: rgb(115, 209, 209);
 text-align: initial;}
-.divpart02{background-color: blueviolet;
+.divpart02{background-color: rgb(174, 154, 194);
     text-align: center;
 }
 
@@ -57,3 +57,71 @@ text-align: initial;}
 .divpart01:hover{
     box-shadow: -8px 8px 20px rgb(208, 208, 43);
 }
+
+td{
+    border: 5px solid rgb(242, 245, 246)
+}
+th{
+    border: 5px solid rgb(242, 245, 246)
+}
+
+
+    .video,
+    .listaFotos2{
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+margin-top: 80px;
+justify-content: center;
+gap: 50px 50px;
+}
+
+.tituloGaleria{
+    background-color: white;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(77, 199, 126);
+    top: 0;
+    position: fixed;
+    z-index: 50%;
+    height: 50px;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 120px;
+}
+
+.nav{
+    color: rgba(247, 252, 252, 0.961);
+    list-style-type: none;
+    font-size: 30px;
+}
+
+.nav-img
+{
+    height: 40px;
+    width: 40px;
+}
+
+.form label{ 
+    text-align: center; color: rgb(226, 15, 15); 
+    font-size: 130%; 
+    display: flex; 
+    flex-direction: column;
+    vertical-align: center;
+    border-color: rgb(237, 8, 8);
+    align-items: center;
+    text-align: center; 
+    justify-content: ;
+       
+}
+
